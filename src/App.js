@@ -9,6 +9,7 @@ import Offers from './components/Offers';
 import PreviousEvents from './components/PreviousEvents';
 import Invitation from './components/Invitation';
 import './App.css';
+import Footer from './components/Footer';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -61,9 +62,8 @@ const App = () => {
       </div>
       <Offers />
         <PreviousEvents /> 
-      <div className='section'>
         <Invitation />
-      </div>
+      <Footer />
     </AppContainer>
   );
 };
