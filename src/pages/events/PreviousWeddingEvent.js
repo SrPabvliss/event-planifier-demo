@@ -116,7 +116,6 @@ const PreviousWeddingEvents = () => {
         scrub: 1,
         snap: 1 / (weddings.length - 1),
         end: () => `+=${weddingContainer.offsetWidth}`,
-        markers: true,
       }
     });
   }, { scope: weddingRef });

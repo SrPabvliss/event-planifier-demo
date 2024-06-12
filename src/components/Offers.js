@@ -64,7 +64,6 @@
           scrub: 1,
           snap: 1 / (offers.length - 1),
           end: () => "+=" + (offersContainer.offsetWidth),
-          markers: true,
         }
       });
     }, { scope: offersRef });

@@ -31,7 +31,6 @@ const EventsPage = () => {
         start: 'top',
         pin: true,
         pinSpacing: false,
-        markers: true,
         end: () => `+=${section.clientHeight}`,
         snap: 1 / (sections.length + 2),
         id: `section-${index + 1}`,
