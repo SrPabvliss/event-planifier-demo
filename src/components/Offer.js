@@ -32,6 +32,7 @@ const OfferDescription = styled.p`
 
 const OfferActions = styled.div`
   display: flex;
+  justify-content: center;
   gap: 10px;
 `;
 
