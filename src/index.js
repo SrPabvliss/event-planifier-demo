@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import EventsPage from './pages/events/EventsPage';
+import AppRoutes from './routes/Router';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <AppRoutes />
+    {/* <App /> */}
+    {/* <EventsPage /> */}
   </React.StrictMode>
 );
 

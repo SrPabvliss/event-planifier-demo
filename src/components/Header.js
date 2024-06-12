@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import { NavLink } from 'react-router-dom';
 
 const Nav = styled.nav`
   display: flex;
@@ -46,10 +47,18 @@ const Header = () => (
         <a href="#">Organización de Eventos</a>
       </Brand>
       <Menu>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Eventos</a></li>
-        <li><a href="#">Sobre Nosotros</a></li>
-        <li><a href="#">Contacto</a></li>
+       
+        <li>
+        <NavLink to="/inicio">
+        <span>Inicio</span>
+        </NavLink>
+          </li>
+        <li>
+        <NavLink to="/eventos">
+        <span>Eventos</span>
+        </NavLink>
+        </li>
+        <li><a href="#">Proyectos</a></li>
       </Menu>
     </Nav>
   </HeaderContainer>

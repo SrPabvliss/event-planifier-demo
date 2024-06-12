@@ -12,7 +12,7 @@ import './App.css';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const AppContainer = styled.div`
+export const AppContainer = styled.div`
   background-color: #121212; /* Fondo oscuro */
   color: white;
   scroll-behavior: smooth;
@@ -27,7 +27,7 @@ const App = () => {
     sections.forEach((section, index) => {
       ScrollTrigger.create({
         trigger: section,
-        start: 'top top',
+        start: 'top ',
         pin: true,
         pinSpacing: false,
         markers: true,
